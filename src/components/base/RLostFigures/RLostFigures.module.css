@@ -1,0 +1,8 @@
+.lost {
+  height: calc(var(--cell-size) * var(--board-size) / 2);
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  overflow-y: scroll;
+  background-color: rgba(149, 165, 166, 0.2);
+}

@@ -1,0 +1,16 @@
+.board_grid {
+  display: grid;
+  grid-template:
+    'b v'
+    'h .';
+}
+
+.board {
+  grid-area: b;
+
+  width: calc(var(--cell-size) * var(--board-size));
+  height: calc(var(--cell-size) * var(--board-size));
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+}

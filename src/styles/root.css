@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cell-size: 84px;
+  --figure-size: 50px;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.black {
+  background-color: #2980b9;
+}
+
+.white {
+  background-color: #95a5a6;
+}
+
+.layout_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout_container {
+  position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding-top: 100px;
+}

@@ -1,0 +1,44 @@
+.head_container{
+  display: flex;
+  justify-content: space-between;
+  max-width: 915px;
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  display: grid;
+  grid-template:
+    'b v'
+    'h .';
+}
+
+.h_axis div,
+.v_axis div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+.h_axis,
+.v_axis {
+  font-size: 24px;
+}
+.h_axis {
+  display: flex;
+  grid-area: h;
+}
+.v_axis {
+  display: flex;
+  flex-direction: column-reverse;
+  grid-area: v;
+}
+.h_axis div {
+  width: var(--cell-size);
+}
+.v_axis div {
+  height: var(--cell-size);
+}

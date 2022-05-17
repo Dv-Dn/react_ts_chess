@@ -1,0 +1,31 @@
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cell img {
+  width: var(--figure-size);
+  height: var(--figure-size);
+  position: relative;
+}
+
+.cell_available {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #16a085;
+}
+
+.attack_available {
+  background-color: #e74c3c;
+}
+
+.selected {
+  background-color: #2ecc71;
+}
+
+.bordered {
+  border: 2px #e67e22 solid;
+}
